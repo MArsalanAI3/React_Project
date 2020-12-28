@@ -1,0 +1,51 @@
+body{
+    font-weight: bold;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+table, th, td {
+    border: 1px solid rgb(0, 0, 0);
+    text-align: left;
+}
+tr:nth-child(even){
+    background-color: rgb(151, 162, 211);
+    color: black;
+}
+th {
+    background-color: rgba(158, 191, 235, 0.925);
+    color: white;
+}
+th, td {
+    padding: 15px;
+}
+
+.button_inc{
+    font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    border: 0;
+    border-radius: 3em;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 1;
+    color: white;
+  background-color: #1ea7fd;
+  font-size: 16px;
+  padding: 12px 24px;
+}
+
+.button_dnc{
+    font-family: 'Nunito Sans', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif';
+    font-weight: 700;
+    border: 0;
+    border-radius: 3em;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 1;
+    color: #333;
+  background-color: transparent;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
+  font-size: 16px;
+  padding: 12px 24px;
+}
